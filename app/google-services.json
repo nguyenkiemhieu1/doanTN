@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "296690485029",
+    "project_id": "skyrestaurant-e75ff",
+    "storage_bucket": "skyrestaurant-e75ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296690485029:android:bcd74070e3d08feca1bccc",
+        "android_client_info": {
+          "package_name": "com.kia99.skyrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296690485029-iqa9u5loehbh96juhdkcvk4ke9gkpfpq.apps.googleusercontent.com",
+          "client_type": 3,
+          "android_info": {
+            "package_name": "com.kia99.skyrestaurant",
+            "certificate_hash": "420e30482d7c5081c0a69babfb6dffcddf44f673"
+          }
+        },
+        {
+          "client_id": "296690485029-7t21jfdj2gr9bh3cithedngi4gkl6cr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjMI-tSyBv3SZHa5pFKxLvve7n8Om0NkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296690485029-iqa9u5loehbh96juhdkcvk4ke9gkpfpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

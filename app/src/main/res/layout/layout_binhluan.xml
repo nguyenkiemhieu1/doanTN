@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_bl"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/md_yellow_a200">
+        <TextView
+            android:fontFamily="@font/arial"
+            android:textSize="@dimen/_20sp"
+            android:textColor="@color/md_indigo_a200"
+            android:text="Viết Bình Luận"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_dangBinhLuan"
+            android:fontFamily="@font/arial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5dp"
+            android:text="@string/dang"
+            android:textColor="@color/md_indigo_a200"
+            android:textSize="@dimen/_20dp">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:padding="@dimen/_5dp"
+        android:orientation="vertical"
+        android:background="@color/backgroundtrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/arial"
+            android:id="@+id/txt_TenquanAnBl"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15dp"
+            android:text="@string/tenquanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:fontFamily="@font/arial"
+            android:id="@+id/txt_DiaChiquanAnBl"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15dp"
+            android:text="@string/diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edt_TieudeBinhLuan"
+        android:fontFamily="@font/arial"
+        android:hint="@string/nhaptieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+         android:background="@color/black">
+    </View>
+
+    <EditText
+        android:id="@+id/edt_noidungBinhLuan"
+        android:fontFamily="@font/arial"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/noidung"
+        android:textSize="@dimen/_15sp"
+        android:gravity="top">
+    </EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_HinhDuocChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:background="@color/backgroundtrangchu"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:id="@+id/igBtn_Camera"
+            android:background="@color/backgroundtrangchu"
+            android:layout_weight="1"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <ImageButton
+            android:background="@color/backgroundtrangchu"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_label_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+        <ImageButton
+            android:background="@color/backgroundtrangchu"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_stars_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>

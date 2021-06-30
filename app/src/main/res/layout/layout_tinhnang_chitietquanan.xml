@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/_5dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.mapwithmarker.MapsMarkerActivity">
+
+        </fragment>
+
+        <View
+            android:id="@+id/khungMap"
+            android:background="@color/transparentWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </View>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:fontFamily="@font/arial"
+                android:textSize="@dimen/_15dp"
+                android:padding="@dimen/_10dp"
+                android:id="@+id/txt_diachiQuanAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:fontFamily="@font/arial"
+                android:id="@+id/txt_GioiHanGia"
+                android:padding="@dimen/_10dp"
+                android:textSize="@dimen/_20dp"
+                android:text="10000 - 100000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <View
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </View>
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:id="@+id/linear_Khungtienich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10dp"
+    android:orientation="vertical"
+    android:padding="@dimen/_5dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:scrollingCache="false"
+        android:id="@+id/recycler_Binhluan_ctqa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_chitiet"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/defaultbackground">
+        <TextView
+            android:fontFamily="@font/arial"
+            android:id="@+id/txt_TieudeToolbar"
+            android:textStyle="bold"
+            android:text="Gogi house"
+            android:textSize="@dimen/_15dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backgroundtrangchu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/defaultbackground">
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:src="@drawable/ic_baseline_exit_to_app_24"></ImageView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_background_radiogroup"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_OD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_radio_tc"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:fontFamily="@font/arial"
+                android:padding="@dimen/_10dp"
+                android:text="Quản lý sản phẩm"
+                android:textColor="@drawable/changetext_radio_trangchu"
+                android:textStyle="bold"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_AG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_radio_angi"
+                android:button="@android:color/transparent"
+                android:fontFamily="@font/arial"
+                android:padding="@dimen/_10dp"
+                android:text="Quản lý thành viên"
+                android:textColor="@drawable/changetext_radio_trangchu"
+                android:textStyle="bold"></RadioButton>
+        </RadioGroup>
+
+        <ImageView
+
+            android:id="@+id/img_ThemQuanAn"
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_15dp"
+            android:src="@drawable/ic_baseline_add_24"></ImageView>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="@dimen/_5dp"
+        android:id="@+id/view_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

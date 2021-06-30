@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/md_blue_80033"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"></include>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="1"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/recycler_DanhsachWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:fontFamily="@font/arial"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/md_blue_800"
+        android:text="@string/capnhatwifi"
+        android:id="@+id/btn_updatewifi"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</FrameLayout>

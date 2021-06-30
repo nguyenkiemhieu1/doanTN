@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/defaultbackground">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_weight="1"
+            android:id="@+id/toolbar_thongtin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/img_update_thongtin"
+            android:src="@drawable/ic_baseline_update_24"
+            android:layout_width="@dimen/_30dp"
+            android:layout_height="match_parent">
+        </ImageView>
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CircleImageView"
+        android:layout_width="@dimen/_180dp"
+        android:layout_height="@dimen/_180dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5dp">
+
+            <TextView
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_30dp"
+                android:fontFamily="@font/arial"
+                android:text="@string/hoten"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20dp"></TextView>
+
+            <TextView
+                android:id="@+id/txt_hotentv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30dp"
+                android:baselineAligned="false"
+                android:fontFamily="@font/arial"
+                android:textSize="@dimen/_20dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5dp">
+
+            <TextView
+
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_30dp"
+                android:fontFamily="@font/arial"
+                android:text="@string/diachi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20dp"></TextView>
+
+            <TextView
+                android:id="@+id/txt_diachi"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30dp"
+                android:baselineAligned="false"
+                android:fontFamily="@font/arial"
+                android:textSize="@dimen/_20dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5dp">
+
+            <TextView
+                android:layout_width="@dimen/_120dp"
+                android:layout_height="@dimen/_30dp"
+                android:fontFamily="@font/arial"
+                android:text="@string/sdt"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20dp"></TextView>
+
+            <TextView
+                android:id="@+id/txt_sdt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30dp"
+                android:baselineAligned="false"
+                android:fontFamily="@font/arial"
+                android:textSize="@dimen/_20dp"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:fontFamily="@font/arial"
+        android:text="ĐĂNG XUẤT"
+        android:id="@+id/btn_dangxuat"
+        android:layout_marginTop="275dp"
+        android:background="@color/defaultbackground"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>

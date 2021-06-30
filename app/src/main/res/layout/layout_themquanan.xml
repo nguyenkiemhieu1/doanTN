@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/defaultbackground">
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_5dp">
+
+            <EditText
+                android:id="@+id/edt_TenQuanAnNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tenquanan"
+                android:textSize="@dimen/_18dp"></EditText>
+
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/edt_GiaToiDaNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/giatoida"
+                android:textSize="@dimen/_18dp"></EditText>
+
+            <EditText
+                android:text="0"
+                android:inputType="number"
+                android:id="@+id/edt_GiaToiThieuNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/giatoithieu"
+                android:textSize="@dimen/_18dp"></EditText>
+
+            <RadioGroup
+                android:id="@+id/groupTrangThai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioGiaoHang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Giaohang"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioKhongGiaoHang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/khonggiaohang"
+                    android:checked="true"></RadioButton>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_giomocua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/giomocua"
+                    android:textAllCaps="false"></Button>
+
+                <Button
+                    android:id="@+id/btn_giodongcua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/giodongcua"
+                    android:textAllCaps="false"></Button>
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150dp">
+                <VideoView
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:id="@+id/VideoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150dp" />
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_themvideo"
+                    android:id="@+id/imgVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </ImageView>
+            </FrameLayout>
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/horizontal_TienIch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/KhungChuaChiNhanh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerKhuVuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <ImageView
+                android:id="@+id/img_hinhQuan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_themhinhanh"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_hinhQuan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mini_themhinh"></ImageView>
+
+                <ImageView
+                    android:id="@+id/img_hinhQuan3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mini_themhinh"></ImageView>
+
+                <ImageView
+                    android:id="@+id/img_hinhQuan4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mini_themhinh"></ImageView>
+
+                <ImageView
+                    android:id="@+id/img_hinhQuan5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mini_themhinh"></ImageView>
+
+                <ImageView
+                    android:id="@+id/img_hinhQuan6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70dp"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_mini_themhinh"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/KhungChuaThucDon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_ThemQuanAn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@color/defaultbackground"
+                android:padding="@dimen/_5dp"
+                android:text="@string/luulai"></Button>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

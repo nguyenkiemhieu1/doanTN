@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5dp"
+    android:gravity="center">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/img_custom_hinhBinhLuan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150dp"
+        >
+    </ImageView>
+    <FrameLayout
+        android:id="@+id/frame_khunghinh_SLHinhAnh"
+        android:background="@color/transparentBachground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:visibility="gone"
+            android:fontFamily="@font/arial"
+            android:id="@+id/txt_custom_sohinhBinhLuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+10"
+            android:textSize="@dimen/_30sp">
+        </TextView>
+
+    </FrameLayout>
+
+</FrameLayout>

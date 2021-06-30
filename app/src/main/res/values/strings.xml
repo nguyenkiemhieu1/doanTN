@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SkyRestaurant</string>
+    <string name="facebook_app_id">2638643303092899</string> <string name="fb_login_protocol_scheme">fb2638643303092899</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="phienban">Phiên bản</string>
+    <string name="Loading">Loading ...</string>
+    <string name="nameCT">KIA</string>
+    <string name="Email">Email</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="Password_again">Nhập lại mật khẩu</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="dangki">ĐĂNG KÍ</string>
+    <string name="hoac">Hoặc</string>
+    <string name="quenpass">Quên mật khẩu</string>
+    <string name="thongbaoloidk">Bạn chưa nhập </string>
+    <string name="thongbaoonhaplaiPW">Vui lòng nhập giống mật khẩu ở trên!!</string>
+    <string name="dangkithanhcong">Tạo tài khoản thành công</string>
+    <string name="dangxl">Đang xử lý</string>
+    <string name="kiemtradangnhap">Tài khoản mật khẩu không hợp lệ!!</string>
+    <string name="khoiphucmatkhau">Khôi phục mật khẩu</string>
+    <string name="chuoikhoiphucMK">Bạn vui lòng nhập địa chỉ Email vào khung bên dưới để khôi phục mật khẩu!</string>
+    <string name="guimailKP">Xác nhận</string>
+    <string name="thanhvien">Bạn không phải là thành viên</string>
+    <string name="dangkimoi"><u>Đăng kí mới</u></string>
+    <string name="emailkhonghople">Email không hợp lệ.</string>
+    <string name="thongbaothanhcong">Gửi Email thành công!!</string>
+    <string name="odau">Ở đâu</string>
+    <string name="anGi">Ăn gì</string>
+    <string name="moinhat">Mới Nhất</string>
+    <string name="danhmuc">Danh Mục</string>
+    <string name="khuvuc">Hưng Yên</string>
+    <string name="Nearby">Nearby</string>
+    <string name="Giaohang">Giao hàng</string>
+    <string name="gameandfun">Game and fun</string>
+    <string name="review">Đánh giá</string>
+    <string name="blogs">Blogs</string>
+    <string name="topmemmber">Top Member</string>
+    <string name="diem">0</string>
+    <string name="order">Đặt món</string>
+    <string name="dangmocua">Đang hoạt động</string>
+    <string name="dangmdongcua">Đã đóng cửa</string>
+
+
+    <string name="like">Like</string>
+    <string name="comment">Bình luận</string>
+    <string name="binhluanvadanhgia">Bình luận và đánh giá</string>
+    <string name="taianh">Tải ảnh</string>
+    <string name="checkin">Check in</string>
+    <string name="chiase">Chia sẻ</string>
+    <string name="luulai">Lưu lại</string>
+
+    <string name="dang">Đăng</string>
+    <string name="capnhatwifi">Cập nhật wifi</string>
+    <string name="nhaptenwifi">Nhập tên wifi</string>
+    <string name="nhappassword">Nhập mật khẩu wifi</string>
+    <string name="dongy">Đồng Ý</string>
+    <string name="loicapnhat">Vui lòng nhập đầy đủ thông tin!!</string>
+    <string name="themthanhcong">Bạn đã thêm thành công!!</string>
+
+    <string name="tenquanan">Tên quán ăn</string>
+    <string name="quanlytaikhoan">Quản lý tài khoản</string>
+    <string name="quanlyquanan">Danh sách quán ăn</string>
+
+    <string name="diachi">Địa Chỉ</string>
+    <string name="nhaptieude">Tiêu đề bình luận(Không bắt buộc)</string>
+    <string name="noidung">Viết trên 100 từ, ngôn từ văn hóa, không spam...</string>
+
+    <string name="thucdon">Thực đơn </string>
+    <string name="giatoida">Giá tối đa</string>
+    <string name="giatoithieu">Giá tối thiểu</string>
+    <string name="giaohang">Giao hàng</string>
+    <string name="khonggiaohang">Không giao hàng</string>
+    <string name="giomocua">Giờ mở cửa</string>
+    <string name="giodongcua">Giờ đóng cửa</string>
+    <string name="chinhanh">Chi nhánh</string>
+    <string name="tenmon">Tên Món</string>
+    <string name="giatien">Giá tiền</string>
+    <string name="luuquanan">Lưu quán ăn</string>
+    <string name="themthucdon">Thêm thực đơn</string>
+
+    <string name="hoten">Họ Và Tên</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="updatequanan">Cập nhật quán ăn</string>
+
+</resources>
